@@ -1,0 +1,74 @@
+city,state_ut,territory_type,district,cases_2021,cases_2022,cases_2023,population_lakhs,crime_rate_2023,chargesheet_rate,children_cases_2021,children_cases_2022,children_cases_2023,pocso_2023,kidnapping_children_2023
+Agra,Uttar Pradesh,State,Agra,1093,962,1030,8,128.1,81.3,312,289,341,178,163
+Amritsar,Punjab,State,Amritsar,292,226,306,5.5,55.3,69.7,88,74,91,41,50
+Asansol,West Bengal,State,Paschim Bardhaman,790,447,695,6,116.8,93.2,198,164,211,89,122
+Aurangabad,Maharashtra,State,Chhatrapati Sambhajinagar,757,834,977,5.7,171.6,80,231,258,289,141,148
+Bhopal,Madhya Pradesh,State,Bhopal,1442,2047,1886,9,210,74.8,498,612,587,287,300
+Chandigarh City,Chandigarh,Union Territory,Chandigarh,343,325,371,4.6,80.2,63.5,102,98,119,54,65
+Dhanbad,Jharkhand,State,Dhanbad,346,297,302,5.6,53.7,67.9,91,84,88,38,50
+Durg-Bhilainagar,Chhattisgarh,State,Durg,538,589,504,5.2,97.2,81.5,145,162,148,67,81
+Faridabad,Haryana,State,Faridabad,1303,1213,1424,6.5,217.7,60,367,342,412,189,223
+Gwalior,Madhya Pradesh,State,Gwalior,1241,1128,1159,5.1,225.8,88.9,381,342,367,178,189
+Jabalpur,Madhya Pradesh,State,Jabalpur,943,1039,809,6,133.8,82.5,278,302,241,118,123
+Jamshedpur,Jharkhand,State,East Singhbhum,389,330,266,6.4,41.5,80.1,96,82,71,31,40
+Jodhpur,Rajasthan,State,Jodhpur,1070,1380,1304,5.4,242.2,60.8,312,401,389,179,210
+Kannur,Kerala,State,Kannur,418,370,445,8.9,50.3,95.7,112,98,119,54,65
+Kollam,Kerala,State,Kollam,635,809,707,5.8,121.9,97.1,189,231,209,98,111
+Kota,Rajasthan,State,Kota,939,1090,1026,4.7,217.6,61.3,278,321,305,141,164
+Ludhiana,Punjab,State,Ludhiana,520,626,441,7.4,59.7,83.1,156,189,134,61,73
+Madurai,Tamil Nadu,State,Madurai,272,283,260,7.3,35.6,90.1,76,79,72,33,39
+Malappuram,Kerala,State,Malappuram,401,401,410,8.9,46.1,91.7,112,111,115,53,62
+Meerut,Uttar Pradesh,State,Meerut,634,825,589,6.7,87.9,84.9,189,245,178,84,94
+Nasik,Maharashtra,State,Nashik,405,550,702,7.4,95.1,61.8,124,167,211,98,113
+Prayagraj,Uttar Pradesh,State,Prayagraj,454,496,589,5.6,105,84.3,134,148,178,84,94
+Raipur,Chhattisgarh,State,Raipur,466,825,706,5.4,129.7,69.9,141,245,212,98,114
+Rajkot,Gujarat,State,Rajkot,242,345,381,6.6,57.8,86.9,71,102,115,53,62
+Ranchi,Jharkhand,State,Ranchi,295,332,364,5.4,67.4,80.7,88,99,109,51,58
+Srinagar,Jammu & Kashmir,Union Territory,Srinagar,367,446,399,6,66.9,81,109,134,121,54,67
+Thiruvananthapuram,Kerala,State,Thiruvananthapuram,508,591,760,8.7,87.1,94,148,172,224,102,122
+Thrissur,Kerala,State,Thrissur,690,822,860,9.8,87.9,93.1,201,238,252,116,136
+Tiruchirapalli,Tamil Nadu,State,Tiruchirappalli,104,110,119,5.1,23.1,85.6,29,31,34,15,19
+Vadodara,Gujarat,State,Vadodara,238,218,300,8.7,34.4,92.8,69,63,89,41,48
+Varanasi,Uttar Pradesh,State,Varanasi,733,534,680,6.7,100.9,81.2,212,156,201,94,107
+Vasai Virar,Maharashtra,State,Palghar,845,1154,1191,5.7,208.3,69.4,248,337,351,163,188
+Vijayawada,Andhra Pradesh,State,NTR,1466,2366,2221,7.4,300,97.5,426,689,655,302,353
+Vishakhapatnam,Andhra Pradesh,State,Visakhapatnam,1890,1329,997,8.6,116.6,97.6,551,389,299,138,161
+Delhi (Central),Delhi,Union Territory,Central Delhi,1812,1689,1743,4.2,414.9,58.2,542,506,524,241,283
+Delhi (North),Delhi,Union Territory,North Delhi,2134,2021,2198,5.1,430.9,56.8,641,607,661,304,357
+Delhi (North East),Delhi,Union Territory,North East Delhi,1623,1544,1589,5.8,274.1,57.1,487,463,477,220,257
+Delhi (North West),Delhi,Union Territory,North West Delhi,1934,1812,1887,6.4,294.8,55.9,580,544,567,261,306
+Delhi (South),Delhi,Union Territory,South Delhi,1445,1356,1402,5.6,250.4,60.1,434,407,421,194,227
+Delhi (South East),Delhi,Union Territory,South East Delhi,1298,1223,1267,3.9,324.8,59.4,390,367,381,176,205
+Delhi (South West),Delhi,Union Territory,South West Delhi,1156,1089,1134,4.8,236.2,61.2,347,327,341,157,184
+Delhi (Dwarka),Delhi,Union Territory,South West Delhi,876,821,854,3.2,267.0,62.4,263,247,257,118,139
+Delhi (East),Delhi,Union Territory,East Delhi,1023,965,1002,3.4,294.6,58.8,307,290,301,139,162
+Delhi (Shahdara),Delhi,Union Territory,Shahdara,889,843,872,3.6,242.3,57.6,267,253,262,121,141
+Puducherry (City),Puducherry,Union Territory,Puducherry,132,118,143,2.8,51.0,72.1,38,34,42,19,23
+Karaikal,Puducherry,Union Territory,Karaikal,41,37,42,0.7,60.0,70.3,11,10,12,5,7
+Mahe,Puducherry,Union Territory,Mahe,12,11,14,0.3,46.7,75.0,3,3,4,2,2
+Yanam,Puducherry,Union Territory,Yanam,9,8,13,0.2,65.0,71.4,2,2,3,1,2
+Port Blair,Andaman & Nicobar Islands,Union Territory,South Andaman,112,98,124,1.6,77.5,68.2,31,28,36,16,20
+Car Nicobar,Andaman & Nicobar Islands,Union Territory,Nicobar,28,24,31,0.4,77.5,64.3,7,6,8,3,5
+Little Andaman,Andaman & Nicobar Islands,Union Territory,South Andaman,18,16,21,0.3,70.0,62.1,4,4,5,2,3
+Silvassa,Dadra & Nagar Haveli and Daman & Diu,Union Territory,Dadra & Nagar Haveli,52,48,61,0.8,76.2,67.4,14,13,17,8,9
+Daman,Dadra & Nagar Haveli and Daman & Diu,Union Territory,Daman,38,34,41,0.7,58.5,69.1,10,9,11,5,6
+Diu,Dadra & Nagar Haveli and Daman & Diu,Union Territory,Diu,14,12,22,0.3,73.3,65.0,3,3,5,2,3
+Kargil,Ladakh,Union Territory,Kargil,6,5,8,0.7,11.4,70.0,2,1,2,1,1
+Leh,Ladakh,Union Territory,Leh,7,6,12,0.9,13.3,72.2,2,2,3,1,2
+Kavaratti,Lakshadweep,Union Territory,Lakshadweep,11,9,13,0.3,43.3,78.6,2,2,3,1,2
+Jammu,Jammu & Kashmir,Union Territory,Jammu,1289,1421,1587,5.8,273.4,62.3,387,427,476,219,257
+Samba,Jammu & Kashmir,Union Territory,Samba,112,98,121,0.6,201.7,60.3,32,28,35,16,19
+Kathua,Jammu & Kashmir,Union Territory,Kathua,156,168,189,0.8,236.2,58.9,44,48,54,25,29
+Udhampur,Jammu & Kashmir,Union Territory,Udhampur,134,145,162,0.7,231.4,61.7,38,41,46,21,25
+Rajouri,Jammu & Kashmir,Union Territory,Rajouri,187,201,223,0.9,247.8,57.4,53,57,64,30,34
+Poonch,Jammu & Kashmir,Union Territory,Poonch,89,97,108,0.5,216.0,59.3,25,27,31,14,17
+Anantnag,Jammu & Kashmir,Union Territory,Anantnag,198,214,234,0.9,260.0,60.1,56,61,67,31,36
+Baramulla,Jammu & Kashmir,Union Territory,Baramulla,156,168,187,1.0,187.0,61.5,44,48,54,25,29
+Kupwara,Jammu & Kashmir,Union Territory,Kupwara,98,107,118,0.7,168.6,62.4,27,30,34,16,18
+Ganderbal,Jammu & Kashmir,Union Territory,Ganderbal,67,72,81,0.4,202.5,63.2,19,20,23,11,12
+Budgam,Jammu & Kashmir,Union Territory,Budgam,112,121,134,0.9,148.9,64.1,31,34,38,18,20
+Pulwama,Jammu & Kashmir,Union Territory,Pulwama,98,106,118,0.7,168.6,62.4,27,30,34,16,18
+Shopian,Jammu & Kashmir,Union Territory,Shopian,43,47,52,0.3,173.3,61.5,12,13,15,7,8
+Kulgam,Jammu & Kashmir,Union Territory,Kulgam,54,58,65,0.5,130.0,63.1,15,16,18,8,10
+Bandipora,Jammu & Kashmir,Union Territory,Bandipora,67,72,81,0.5,162.0,62.7,19,20,23,11,12
+Reasi,Jammu & Kashmir,Union Territory,Reasi,78,84,94,0.4,235.0,60.6,22,24,27,12,15
