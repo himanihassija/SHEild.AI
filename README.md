@@ -1,155 +1,85 @@
-# SHEild AI
+# Community Problem Solver
 
-## AI-Powered Women and Children Safety Intelligence Platform
+> An intelligent, community-centric platform designed to identify overlooked real-world problems, understand their context, and connect them with practical and actionable solutions.
 
-SHEild AI is an intelligent safety platform that leverages crime analytics, predictive intelligence, and smart route planning to help women and children make safer travel decisions. The platform combines official crime statistics, Google Maps services, OpenStreetMap data, and machine learning techniques to analyze city safety, recommend safer travel routes, and provide actionable safety insights through an interactive dashboard.
+## Overview
 
-Unlike conventional navigation applications that primarily optimize routes based on travel time or distance, SHEild AI introduces a **Safety First Navigation System**. Every route is evaluated using historical crime patterns, nearby high-risk locations, road characteristics, and street lighting information before being recommended to the user.
+Every community has problems that are overlooked because they do not fit into a single category.
 
-The platform also provides comprehensive crime analytics, city-wise safety scores, AI-generated recommendations, predictive crime trends, and emergency support information, making it a complete women and children safety intelligence platform.
+A student may struggle to find affordable learning resources. A senior citizen may have difficulty accessing essential services. A local business may face challenges that existing platforms do not address. Farmers may lack access to the right information, workers may struggle with local opportunities, and entire neighborhoods may experience recurring problems without having a structured way to report or solve them.
 
----
+These problems are often not ignored because they are unimportant.
 
-# Table of Contents
+They are ignored because they fall between existing systems.
 
-* [Project Overview](#project-overview)
-* [Problem Statement](#problem-statement)
-* [Solution](#solution)
-* [Key Features](#key-features)
-* [System Architecture](#system-architecture)
-* [Technology Stack](#technology-stack)
-* [Project Structure](#project-structure)
-* [Installation](#installation)
-* [Environment Variables](#environment-variables)
-* [Running the Application](#running-the-application)
-* [Dashboard Modules](#dashboard-modules)
-* [Safe Route Planner](#safe-route-planner)
-* [Risk Assessment Engine](#risk-assessment-engine)
-* [AI Recommendation System](#ai-recommendation-system)
-* [Crime Prediction Module](#crime-prediction-module)
-* [APIs Used](#apis-used)
-* [Future Improvements](#future-improvements)
-* [License](#license)
+Most digital platforms are designed around predefined categories such as education, healthcare, transportation, employment, business, or public services. Real-world community problems, however, are rarely that simple.
+
+A single problem can involve multiple people, multiple causes, multiple categories, and multiple possible solutions.
+
+This project focuses on that gap.
+
+**Community Problem Solver is my attempt to build a problem-first platform that starts with the actual problem faced by a person or community and then works toward understanding, prioritizing, and finding a suitable solution.**
+
+Instead of asking people to determine which category their problem belongs to, the platform focuses on understanding the problem itself.
+
+The core idea is simple:
+
+> **Identify the problem → Understand the context → Discover relevant solutions → Connect the right resources → Create measurable impact.**
 
 ---
 
-# Project Overview
+# The Problem
 
-SHEild AI is a data-driven safety intelligence platform developed to improve personal safety during travel by combining **crime analytics**, **geospatial intelligence**, **machine learning**, and **real-time route analysis**.
+Communities generate thousands of small and large problems every day.
 
-The project consists of two major components:
+However, only a fraction of them receive structured attention.
 
-**1. Crime Intelligence Dashboard**
+The reason is often a combination of:
 
-The dashboard analyzes crime statistics across cities and generates meaningful safety insights using historical crime data. It calculates city-wise risk scores, predicts future crime trends, visualizes safety metrics, and provides personalized safety recommendations.
+- Lack of visibility
+- Problems falling across multiple categories
+- Lack of centralized information
+- Difficulty finding relevant organizations or resources
+- Lack of coordination between people
+- Limited awareness of existing solutions
+- Difficulty prioritizing which problems need immediate attention
+- Lack of a feedback mechanism after a solution is implemented
 
-**2. Smart Safe Route Planner**
+For example, consider a simple problem:
 
-The route planner recommends safer travel paths by analyzing multiple routes instead of simply selecting the fastest one. Each route is evaluated using crime exposure, nearby high-risk cities, street lighting, road classifications, and travel time before assigning an overall safety score.
+> "Students in a particular neighborhood do not have an affordable place to study after college hours."
 
-The platform is built using **Python**, **Streamlit**, **Google Maps APIs**, **OpenStreetMap**, **Scikit-learn**, **Pandas**, and **Plotly** to deliver an interactive, intelligent, and user-friendly safety application.
+This is not simply an education problem.
 
----
+It can involve:
 
-# Problem Statement
+- Education
+- Accessibility
+- Infrastructure
+- Local businesses
+- Community spaces
+- Transportation
+- Affordability
 
-Most navigation applications prioritize **shortest distance** or **fastest travel time** while completely ignoring personal safety. For women and children, especially during night travel or in unfamiliar locations, choosing the fastest route may not always be the safest decision.
+A traditional category-based system may struggle to classify such a problem correctly.
 
-Similarly, although government agencies publish annual crime statistics, these datasets are often difficult for the general public to interpret and utilize effectively. Users lack a centralized platform that converts complex crime data into meaningful safety insights and practical travel recommendations.
-
-These limitations create a need for a platform capable of integrating crime intelligence with navigation systems to support informed and safer travel decisions.
-
----
-
-# Solution
-
-SHEild AI addresses these challenges by integrating **crime analytics**, **geospatial intelligence**, and **predictive analytics** into a unified safety platform.
-
-The platform computes safety scores for cities using historical crime statistics, identifies high-risk regions, predicts future crime trends, and visualizes important safety metrics through an interactive dashboard.
-
-For travel planning, the system generates multiple route alternatives and evaluates each route using several safety parameters including crime exposure, nearby high-risk cities, street lighting conditions, road classifications, and estimated travel duration. Users can adjust the balance between travel speed and safety, allowing the system to recommend routes that best match their preferences.
-
-This approach enables users to make safer travel decisions based on data rather than relying solely on travel time.
-
----
-
-# Key Features
-
-## Crime Intelligence Dashboard
-
-**City-wise Risk Analysis**
-
-Calculates comprehensive risk scores for each city using multiple crime indicators.
-
-**Safety Score Generation**
-
-Converts calculated risk values into an easy-to-understand safety score ranging from **0 to 100**.
-
-**Risk Classification**
-
-Automatically classifies cities into:
-
-* Low Risk
-* Medium Risk
-* High Risk
-
-**Interactive Visualizations**
-
-Provides dynamic charts and analytics including:
-
-* Crime trends
-* Risk distribution
-* Safety comparison
-* Top risky cities
-* Safest cities
-* Dashboard KPIs
-
-**Future Crime Prediction**
-
-Estimates crime statistics for the following year using historical crime trends.
-
-**Personalized Safety Recommendations**
-
-Generates recommendations according to the calculated safety level of each city.
+A problem-first system can instead understand the actual situation and identify possible ways to address it.
 
 ---
 
-## Smart Safe Route Planner
+# The Core Idea
 
-The Safe Route Planner extends traditional navigation by considering safety as the primary optimization objective.
+The central idea behind my project is:
 
-### Route Generation
+## Don't start with the category. Start with the problem.
 
-Multiple route alternatives are generated between the selected origin and destination.
+Instead of forcing a user to select:
 
-### Geocoding
-
-Converts user-entered locations into geographic coordinates using Google Geocoding API with OpenStreetMap fallback support.
-
-### Route Retrieval
-
-Retrieves driving routes using Google Routes API while supporting OSRM as a fallback routing engine.
-
-### Crime Exposure Analysis
-
-Measures the proximity of each route to nearby high-risk cities and computes a weighted crime exposure score.
-
-### Street Lighting Analysis
-
-Analyzes OpenStreetMap data to estimate the availability of street lighting along the selected route.
-
-### Road Classification
-
-Evaluates different road categories including highways, primary roads, secondary roads, service roads, and isolated roads to improve route safety estimation.
-
-### Safety Ranking
-
-Ranks every available route according to:
-
-* Crime exposure
-* Nearby risky cities
-* Street lighting
-* Road type
-* Travel duration
-
-Users can choose between the **Fastest Route** and the **Safest Route** depending on their travel preferences.
+```text
+Education
+Healthcare
+Business
+Transportation
+Employment
+Safety
+Infrastructure
