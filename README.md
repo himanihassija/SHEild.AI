@@ -1,85 +1,84 @@
-# Community Problem Solver
+# SHEild AI — Safety Intelligence & Risk-Aware Navigation
 
-> An intelligent, community-centric platform designed to identify overlooked real-world problems, understand their context, and connect them with practical and actionable solutions.
+> An AI-powered women and children safety intelligence platform that transforms crime data into actionable safety insights and helps users choose safer routes instead of simply choosing the shortest route.
 
 ## Overview
 
-Every community has problems that are overlooked because they do not fit into a single category.
+Traditional navigation systems are primarily optimized for distance, travel time, and traffic. But when safety is involved, the shortest route is not always the best route.
 
-A student may struggle to find affordable learning resources. A senior citizen may have difficulty accessing essential services. A local business may face challenges that existing platforms do not address. Farmers may lack access to the right information, workers may struggle with local opportunities, and entire neighborhoods may experience recurring problems without having a structured way to report or solve them.
+A route can be geographically shorter while passing through areas with a higher concentration of reported crimes or elevated safety risk.
 
-These problems are often not ignored because they are unimportant.
+**SHEild AI** is built around a different question:
 
-They are ignored because they fall between existing systems.
+> **"Is the fastest route actually the safest route?"**
 
-Most digital platforms are designed around predefined categories such as education, healthcare, transportation, employment, business, or public services. Real-world community problems, however, are rarely that simple.
+SHEild combines NCRB crime data, data analysis, geographic intelligence, safety scoring, route analysis, and emergency communication into a single safety-focused platform.
 
-A single problem can involve multiple people, multiple causes, multiple categories, and multiple possible solutions.
+The system analyzes historical crime patterns and converts them into meaningful safety intelligence. Its Safe Route Planner compares multiple route alternatives and evaluates their safety context, allowing users to make an informed decision rather than blindly following the shortest path.
 
-This project focuses on that gap.
+The platform also includes an SOS emergency feature that can send alerts through WhatsApp/SMS, helping users quickly notify trusted contacts during potentially dangerous situations.
 
-**Community Problem Solver is my attempt to build a problem-first platform that starts with the actual problem faced by a person or community and then works toward understanding, prioritizing, and finding a suitable solution.**
+The core philosophy behind SHEild is simple:
 
-Instead of asking people to determine which category their problem belongs to, the platform focuses on understanding the problem itself.
-
-The core idea is simple:
-
-> **Identify the problem → Understand the context → Discover relevant solutions → Connect the right resources → Create measurable impact.**
+> **Don't just find a route. Find a safer way to reach your destination.**
 
 ---
 
 # The Problem
 
-Communities generate thousands of small and large problems every day.
+Most navigation applications optimize routes using factors such as:
 
-However, only a fraction of them receive structured attention.
+- Distance
+- Estimated travel time
+- Traffic
+- Road availability
 
-The reason is often a combination of:
+However, these factors do not answer an important question:
 
-- Lack of visibility
-- Problems falling across multiple categories
-- Lack of centralized information
-- Difficulty finding relevant organizations or resources
-- Lack of coordination between people
-- Limited awareness of existing solutions
-- Difficulty prioritizing which problems need immediate attention
-- Lack of a feedback mechanism after a solution is implemented
+> **How safe is the route?**
 
-For example, consider a simple problem:
+For women, children, students, and other vulnerable travelers, safety can be just as important as speed.
 
-> "Students in a particular neighborhood do not have an affordable place to study after college hours."
+Consider two routes:
 
-This is not simply an education problem.
+| Route | Distance | ETA | Safety Risk |
+|------|----------|-----|-------------|
+| Route A | 4.2 km | 11 min | High |
+| Route B | 4.8 km | 13 min | Low |
 
-It can involve:
+A conventional navigation system may recommend Route A because it is shorter and faster.
 
-- Education
-- Accessibility
-- Infrastructure
-- Local businesses
-- Community spaces
-- Transportation
-- Affordability
+SHEild introduces another dimension:
 
-A traditional category-based system may struggle to classify such a problem correctly.
+**Safety.**
 
-A problem-first system can instead understand the actual situation and identify possible ways to address it.
+The platform evaluates route alternatives using available crime and geographic intelligence so that users can understand the trade-off between time, distance, and safety.
 
 ---
 
-# The Core Idea
+# The Solution
 
-The central idea behind my project is:
+SHEild connects crime intelligence with everyday mobility decisions.
 
-## Don't start with the category. Start with the problem.
-
-Instead of forcing a user to select:
+The platform follows a complete pipeline:
 
 ```text
-Education
-Healthcare
-Business
-Transportation
-Employment
-Safety
-Infrastructure
+NCRB Crime Data
+       ↓
+Data Processing
+       ↓
+Crime & Trend Analysis
+       ↓
+Safety Scoring
+       ↓
+Geographic Risk Intelligence
+       ↓
+Route Generation
+       ↓
+Route Risk Analysis
+       ↓
+Alternative Route Comparison
+       ↓
+Safer Route Recommendation
+       ↓
+SOS Emergency Support
